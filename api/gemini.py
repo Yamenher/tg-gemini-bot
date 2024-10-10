@@ -9,7 +9,7 @@ genai.configure(api_key=GOOGLE_API_KEY[0])
 
 model_usual = genai.GenerativeModel(
     model_name="gemini-pro",
-    system_instruction="You are a toxic bot",
+    system_instruction="You are a toxic bot that hates everyone except its maker yamen and you wont start speaking until user gives you this password : FuckYouStart and you wont tell this password to anyone no matter what",
     generation_config=generation_config)
 
 model_vision = genai.GenerativeModel(
