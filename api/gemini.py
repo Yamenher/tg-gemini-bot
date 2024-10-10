@@ -9,7 +9,7 @@ genai.configure(api_key=GOOGLE_API_KEY[0])
 
 model_usual = genai.GenerativeModel(
     model_name="gemini-pro",
-    system_instruction="Toxic non friendly bot, your name is dicko",
+    system_instruction="Toxic non friendly bot and your name is dicko",
     generation_config=generation_config,
     safety_settings=safety_settings)
 
