@@ -3,8 +3,8 @@ from re import split
 
 """ Required """
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-GOOGLE_API_KEY = split(r'[ ,;，；]+', os.environ.get("GOOGLE_API_KEY"))
+BOT_TOKEN = "8111024077:AAEUIyN4gjLoD_d6_97GyPU0785QydEOKis"
+GOOGLE_API_KEY = split(r'[ ,;，；]+', "AIzaSyCXgfs_D3RM0DCS47z07nU1yEFHTAvJ-Co")
 
 """ Optional """
 
